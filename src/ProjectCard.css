@@ -1,0 +1,34 @@
+/* Project Card Styles */
+
+.project-card {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  margin-bottom: 10px;
+}
+
+.project-card ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project-card li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #eee;
+  color: #333;
+  font-size: 12px;
+  border-radius: 3px;
+}

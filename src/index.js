@@ -1,13 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import "./SkillBadge.css";
+import reportWebVitals from "./reportWebVitals";
+import Portfolio from "./Portfolio";
+import Image from "./image";
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Portfolio />
+    <Image
+        src="/path/to/your/image.jpg"
+        alt="Image Description"
+        
+      />
   </React.StrictMode>
 );
 

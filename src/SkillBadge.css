@@ -1,0 +1,27 @@
+
+/* Skill Badge Styles */
+
+.skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill-badge {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #aaae7f;
+    color: #333;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #f7f7f7;
+  }
