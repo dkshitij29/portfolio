@@ -14,6 +14,40 @@
         h2, h4 {
             color: #2c3e50;
         }
+        .container {
+            background-color: #ffffff;
+            border: 1px solid #bdc3c7;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .nested-container {
+            background-color: #f9f9f9;
+            border: 1px solid #bdc3c7;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            transition: transform 0.3s, box-shadow 0.3s; /* Add transition here */
+            cursor: pointer;
+        }
+        .nested-container:hover {
+            transform: translateY(-5px); /* Move the box upward slightly on hover */
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
+        }
+        .work-experience-container {
+            /* Define styles for work experience containers */
+            background-color: #f9f9f9;
+            border: 1px solid #bdc3c7;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            cursor: pointer;
+        }
+        .work-experience-container:hover {
+            /* Define hover styles for work experience containers */
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
+        }
         .projects-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -27,7 +61,6 @@
             padding: 20px;
             text-align: center;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
             cursor: pointer;
         }
         .project-box:hover {
@@ -35,53 +68,137 @@
             box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
         }
         footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             margin-top: 20px;
             padding-top: 10px;
             border-top: 1px solid #bdc3c7;
         }
         footer ul {
+            display: flex;
             list-style-type: none;
             padding: 0;
+            margin: 0;
         }
         footer li {
-            margin: 5px 0;
+            margin: 0 10px;
         }
     </style>
 </head>
 <body>
-    <h2>Projects</h2>
-    <div class="projects-container">
-        <div class="project-box" onclick="location.href='src/project1.html'">
-            <h4>Graph Shortest Path Visualization</h4>
-            <p>Learn more about the Graph Shortest Path Visualization project.</p>
+<div>
+    <div class="container">
+        <h2>About 🙋‍♂️ (🥱 booring part 🤣):</h2>
+        
+        <div class="nested-container">
+            <p>
+                I am Kshitij Dhannoda, a dedicated and passionate software engineer with a strong background in Computer and Information Sciences. My journey in the world of technology began at the University of Michigan, Dearborn, where I pursued my Masters in Computer and Information Sciences, specializing in General Computer Science. Prior to that, I obtained my Bachelor of Technology in Information Technology from Vidya Jyothi Institute of Technology, India.
+            </p>
+            <p>
+                With a keen interest in exploring and mastering various programming languages and frameworks, I have honed my skills in JavaScript, Go, Rust, Java, Python, C, Dart, and PHP. My expertise extends to frameworks such as React-Native, Flutter, Native-script, OpenCV, Hadoop, PySpark, Django, and Next.js. Proficient in utilizing tools like GIT, Docker, Android Studio, Microsoft Office, and LaTeX, I am committed to delivering high-quality solutions that meet the needs of clients and users alike.
+            </p>
+            <p>
+                Throughout my professional journey, I have had the privilege of gaining valuable experience through internships and apprenticeships. As a Software Intern at the Free Software Movement of India, I contributed to enhancing user experiences through the design and implementation of React components. During my tenure as a Next.js Developer Intern at Provoke Developers, I played a key role in translating design concepts into interactive web applications, thereby significantly improving the online presence of businesses.
+            </p>
+            <p>
+                >
+                In addition to my technical expertise, I possess strong soft skills including communication, collaboration, adaptability, problem-solving, leadership, and time management. These qualities have enabled me to effectively lead teams, manage projects, and deliver results in dynamic and fast-paced environments.
+            </p>
+            <p>
+                Outside of my professional endeavors, I am deeply involved in various leadership and community initiatives. As an Internship Coordinator for the Swecha Summer Internship Program and a Technical Support Lead for the NMREC Summer Internship Program, I mentored and guided aspiring young minds in the field of technology. I also served as a Tech Lead for the GNU/Linux User Group, organizing events and workshops to promote open-source software and hardware.
+            </p>
+            <p>
+                Driven by a passion for continuous learning and innovation, I am eager to take on new challenges and contribute to meaningful projects that make a positive impact on society.
+            </p>
         </div>
-        <div class="project-box" onclick="location.href='src/project2.html'">
-            <h4>Step Tracker Application</h4>
-            <p>Learn more about the Step Tracker Application project.</p>
-        </div>
-        <div class="project-box" onclick="location.href='src/project3.html'">
-            <h4>Web Leave Management System</h4>
-            <p>Learn more about the Web Leave Management System project.</p>
-        </div>
-        <div class="project-box" onclick="location.href='src/project4.html'">
-            <h4>Recommendation System</h4>
-            <p>Learn more about the Recommendation System project.</p>
-        </div>
-        <div class="project-box" onclick="location.href='src/project5.html'">
-            <h4>Caliber Web Docker Image Customization</h4>
-            <p>Learn more about the Caliber Web Docker Image Customization project.</p>
-        </div>
-        <div class="project-box" onclick="location.href='src/project6.html'">
-            <h4>Speech Recognition API in Flutter</h4>
-            <p>Learn more about the Speech Recognition API project.</p>
-        </div>
-        <!-- Add more project boxes as needed -->
     </div>
-    <footer>
-        <h2>Contact Me</h2>
+</div>
+<div class="container">
+    <h2>Education</h2>
+    <div class="nested-container">
+        <h4>University of Michigan, Dearborn, MI</h4>
+        <p>Masters in Computer and Information Sciences(General)</p>
+        <p>Jan 2024 - Jan 2026</p>
+        <p>GPA: 3.0/4.0</p>
+    </div>
+    <div class="nested-container">
+        <h4>Vidya Jyothi Institute of Technology, India</h4>
+        <p>Bachelor of Technology in Information Technology</p>
+        <p>Aug 2019 - May 2023</p>
+        <p>GPA: 3.8/4.0</p>
+    </div>
+</div>
+
+<div class="container">
+    <h2>Work Experience</h2>
+    <div class="nested-container">
+        <h4>Software Intern | Free Software Movement of India, India</h4>
+        <p>Jan 2023 – Aug 2023</p>
         <ul>
-            <li>Email: <a href="mailto:dkshitij@umich.edu">dkshitij@umich.edu</a></li>
+            <li>Designed React components and implemented screen transition animations, resulting in a 40% enhanced user experience.</li>
+            <li>Achieved 60fps consistency across devices with unified code, resulting in a 13% increase in user satisfaction.</li>
+            <li>Managed state using Redux and React memo, improving overall app performance and leading to higher user retention rates.</li>
+            <li>Used immutable data structures, improving data processing speed and app responsiveness, boosting user satisfaction.</li>
         </ul>
-    </footer>
+    </div>
+    <div class="nested-container">
+        <h4>Next.js Developer - Internship | Provoke Developers, India</h4>
+        <p>Oct 2022 – Nov 2022</p>
+        <ul>
+            <li>Translated Figma designs to interactive webpages, enhancing the business’s online presence by 15%.</li>
+            <li>Consolidated designs into a unified app, utilizing Git for version control, facilitating business feature maintenance.</li>
+            <li>Utilized dynamic scaling to efficiently cover 95% of screen sizes, boosting the business’s online presence.</li>
+            <li>Implemented responsive design principles with Next.js, enhancing user experience for a 40% satisfaction boost.</li>
+        </ul>
+    </div>
+    <div class="nested-container">
+        <h4>Core Representative and Design Lead - Apprenticeship | GNU/Linux User's Group of VJIT, India</h4>
+        <p>Oct 2020 – Nov 2023</p>
+        <ul>
+            <li>Oversaw maintenance, design, and deployment of the VJIT GLUG Website built on WordPress.</li>
+            <li>Organized GLUG conference for a cohort of roughly 500–600 students, focusing on Open Source Software and Hardware.</li>
+            <li>Implemented responsive design principles, ensuring and enhancing user experience.</li>
+        </ul>
+    </div>
+</div>
+
+<h2>Projects</h2>
+<div class="projects-container">
+    <div class="project-box" onclick="location.href='pages/project1.html'">
+        <h4>Graph Shortest Path Visualization</h4>
+        <p>Learn more about the Graph Shortest Path Visualization project.</p>
+    </div>
+    <div class="project-box" onclick="location.href='pages/project2.html'">
+        <h4>Step Tracker Application</h4>
+        <p>Learn more about the Step Tracker Application project.</p>
+    </div>
+    <div class="project-box" onclick="location.href='pages/project3.html'">
+        <h4>Web Leave Management System</h4>
+        <p>Learn more about the Web Leave Management System project.</p>
+    </div>
+    <div class="project-box" onclick="location.href='pages/project4.html'">
+        <h4>Recommendation System</h4>
+        <p>Learn more about the Recommendation System project.</p>
+    </div>
+    <div class="project-box" onclick="location.href='pages/project5.html'">
+        <h4>Caliber Web Docker Image Customization</h4>
+        <p>Learn more about the Caliber Web Docker Image Customization project.</p>
+    </div>
+    <div class="project-box" onclick="location.href='pages/project6.html'">
+        <h4>Speech Recognition API in Flutter</h4>
+        <p>Learn more about the Speech Recognition API project.</p>
+    </div>
+    <!-- Add more project boxes as needed -->
+</div>
+
+<footer>
+    <ul>
+        <li>Email: <a href="mailto:dkshitij@umich.edu">dkshitij@umich.edu</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/dkshitij29" target="_blank">dkshitij29</a></li>
+       
+        <li>Git accounts:<a href="pages/git_accounts.html">Link</a></li>
+    </ul>
+</footer>
 </body>
 </html>
