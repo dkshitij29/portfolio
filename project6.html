@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Recognition API in Flutter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h2, h3, h4 {
+            color: #2c3e50;
+        }
+        p, ul {
+            color: #7f8c8d;
+        }
+        a {
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <h2>Speech Recognition API in Flutter</h2>
+    <h3>Project Description</h3>
+    <p>
+        The project involves developing a speech recognition API using Flutter for Android devices. This project captures speech or acoustic signals, transforms them into text using the speech_to_text package version 6.6.2, and displays the translated text on the Android device.
+    </p>
+    <h4>Preparations</h4>
+    <ol>
+        <li>Write an Android API for speech recognition.</li>
+        <li>Collect speech/acoustic signals.</li>
+        <li>Transform speech to text using the speech_to_text package version 6.6.2.</li>
+        <li>Display the translated text on the Android device.</li>
+    </ol>
+    <h4>Output</h4>
+    <ul>
+        <li>Add all necessary permissions in AndroidManifest.xml.</li>
+        <li>Design the UI of your app in the main activity XML.</li>
+        <li>Edit MainActivity.java:
+            <ul>
+                <li>Initialize variables and functions such as TextViews, SpeechRecognizer object, MediaPlayer, and Recorder objects.</li>
+                <li>In the onCreate function, build the RecView layout, create the SpeechRecognizerIntent, and set onclick listeners to call the appropriate functions.</li>
+                <li>Use putExtra() in SpeechRecognizerIntent to store data as key-value pairs and add extra data into the intent object.</li>
+                <li>Create startRecording to begin voice recording and start the activity (request proper permissions first).</li>
+                <li>Create OnActivityResult to retrieve data and send transcribed results to TextView.</li>
+            </ul>
+        </li>
+        <li>Edit MediaPlayer object:
+            <ul>
+                <li>Create a new MediaPlayer object to playback audio, providing the file path of the audio recording.</li>
+                <li>To pause playing, release the MediaPlayer object.</li>
+            </ul>
+        </li>
+    </ul>
+    <h4>Challenges</h4>
+    <ol>
+        <li>Having two mic inputs at the same time.</li>
+        <li>Transcribing directly from an audio file:
+            <ul>
+                <li>Google Cloud API requires format conversion and costs money.</li>
+                <li>On audio replay, use speech recognition to listen to the replay.</li>
+            </ul>
+        </li>
+    </ol>
+    <h4>Tools and Technologies</h4>
+    <p>Flutter, Dart, speech_to_text: ^6.6.2</p>
+    <h4>Final Report</h4>
+    <p>
+        <strong>Presentation Deadline:</strong> 4/15/2024. Show all the files, important classes, and functions.<br>
+        <strong>Submission Deadline:</strong> 4/19/2024. Include source code, slides, experimental results (audio and text files), and a recorded video (only for specific demos).
+    </p>
+    <p>
+        <a href="index.html">Back to Portfolio</a>
+    </p>
+</body>
+</html>
