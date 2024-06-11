@@ -26,7 +26,6 @@ With a keen interest in exploring and mastering various programming languages an
 
 ## Work Experience
 ### Software Intern | Free Software Movement of India, India
-- **Duration:** Jan 2023 – Aug 2023
 
 ### Next.js Developer - Internship | Provoke Developers, India
 
