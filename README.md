@@ -20,37 +20,17 @@ With a keen interest in exploring and mastering various programming languages an
 ## Education
 ### University of Michigan, Dearborn, MI
 - **Degree:** Masters in Computer and Information Sciences (General)
-- **Duration:** Jan 2024 - Jan 2026
-- **GPA:** 3.8/4.0
 
 ### Vidya Jyothi Institute of Technology, India
 - **Degree:** Bachelor of Technology in Information Technology
-- **Duration:** Aug 2019 - May 2023
-- **GPA:** 3.0/4.0
 
 ## Work Experience
 ### Software Intern | Free Software Movement of India, India
 - **Duration:** Jan 2023 – Aug 2023
-- **Responsibilities:**
-  - Designed React components and implemented screen transition animations, enhancing user experience by 40%.
-  - Achieved 60fps consistency across devices with unified code, increasing user satisfaction by 13%.
-  - Managed state using Redux and React memo, improving app performance and user retention rates.
-  - Used immutable data structures to improve data processing speed and app responsiveness.
 
 ### Next.js Developer - Internship | Provoke Developers, India
-- **Duration:** Oct 2022 – Nov 2022
-- **Responsibilities:**
-  - Translated Figma designs into interactive webpages, enhancing the business’s online presence by 15%.
-  - Consolidated designs into a unified app using Git for version control.
-  - Utilized dynamic scaling to cover 95% of screen sizes, boosting online presence.
-  - Implemented responsive design principles with Next.js, increasing user satisfaction by 40%.
 
 ### Core Representative and Design Lead - Apprenticeship | GNU/Linux User's Group of VJIT, India
-- **Duration:** Oct 2020 – Nov 2023
-- **Responsibilities:**
-  - Maintained, designed, and deployed the VJIT GLUG Website built on WordPress.
-  - Organized GLUG conference for 500–600 students, focusing on Open Source Software and Hardware.
-  - Implemented responsive design principles, enhancing user experience.
 
 ## Projects
 - **[Graph Shortest Path Visualization](https://portfolio-dkshitij29-181549a0ac72bb7f35f3125b97a892cd746ce9ebcf.gitlab.io/pages/project1.html)**
