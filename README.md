@@ -38,7 +38,7 @@ With a keen interest in exploring and mastering various programming languages an
 - **[Recommendation System](https://portfolio-dkshitij29-181549a0ac72bb7f35f3125b97a892cd746ce9ebcf.gitlab.io/pages/project4.html)**
 - **[Caliber Web Docker Image Customization](https://portfolio-dkshitij29-181549a0ac72bb7f35f3125b97a892cd746ce9ebcf.gitlab.io/pages/project5.html)**
 - **[Speech2text and Text2speech mobile app](https://portfolio-dkshitij29-181549a0ac72bb7f35f3125b97a892cd746ce9ebcf.gitlab.io/pages/project6.html)**
-- **[Speech2text and Text2speech mobile app](https://portfolio-dkshitij29-181549a0ac72bb7f35f3125b97a892cd746ce9ebcf.gitlab.io/pages/project6.html)**
+- **[Multi Lingual Dictionary](https://portfolio-dkshitij29-181549a0ac72bb7f35f3125b97a892cd746ce9ebcf.gitlab.io/pages/project7.html)**
 
 ## Contact
 - **Email:** [dkshitij@umich.edu](mailto:dkshitij@umich.edu)
