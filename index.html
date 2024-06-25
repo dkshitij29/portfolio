@@ -182,10 +182,16 @@
             margin-right: 10px; /* Adjust spacing between individual skills */
             color: #333
         }
-        /* Responsive adjustments */
+        /* Responsive adjustments for full page */
         @media (max-width: 768px) {
-            .skills-container {
-                gap: 10px; /* Reduce gap between skill categories on smaller screens */
+            .container {
+                padding: 10px; /* Add padding to containers on smaller screens */
+            }
+            .nested-container {
+                padding: 15px; /* Adjust padding for nested containers on smaller screens */
+            }
+            .project-box {
+                padding: 15px; /* Adjust padding for project boxes on smaller screens */
             }
             .skill {
                 flex: 1 1 calc(100% - 20px); /* Full width for skills on smaller screens */
