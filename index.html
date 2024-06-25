@@ -43,7 +43,14 @@
             margin: 0 10px;
             font-weight: bold;
         }
-        
+        nav a.download-link:link,
+        nav a.download-link:visited {
+            color: #007bff; /* Blue color for the download link */
+            text-decoration: underline; /* Underline style */
+        }
+        nav a.download-link:hover {
+            color: #0056b3; /* Darker blue on hover */
+        }
         h2, h4 {
             color: #2c3e50;
         }
@@ -367,12 +374,19 @@
         </div>
     </div>
 
+    <div class="container" id="download">
+        <h2>Download Resume</h2>
+        <p>Click the link below to download my resume:</p>
+        <a href="resources/Resume.pdf" download="resume.pdf">Download Resume</a>
+    </div>
+
     <div>
         <footer id="contact">
             <ul>
                 <li> <img src="img/mail.jpg" class="email-icon">Email: <a href="mailto:dkshitij@umich.edu">dkshitij@umich.edu</a></li><p> | </p> 
                 <li> <img src="img/linkedin.png" class="email-icon">LinkedIn: <a href="https://www.linkedin.com/in/dkshitij29" target="_blank">dkshitij29</a></li> <p> | </p>
-                <li> <img src="img/git.png" class="email-icon">Git accounts:<a href="pages/git_accounts.html">Link</a></li>
+                <li> <img src="img/git.png" class="email-icon">Git accounts:<a href="pages/git_accounts.html">Link</a></li> <p> | </p>
+                <li>Resume:<a href="resources/Resume.pdf" download="resume.pdf" class="download-link">Download</a></li>
             </ul>
         </footer>
     </div>
