@@ -48,9 +48,24 @@
             /* Define hover styles for work experience containers */
             box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
         }
-        .projects-container {
+        /*.projects-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .project-box {
+            background-color: #ffffff;
+            border: 1px solid #bdc3c7;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }*/
+        .projects-container {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr); /* Ensure the number of columns matches the number of projects */
             gap: 20px;
             margin-top: 20px;
         }
@@ -181,6 +196,10 @@
     <div class="project-box" onclick="location.href='pages/project6.html'">
         <h4>Speech2text and Text2speech mobile app  </h4>
         <p>Learn more about the Speech Recognition API project.</p>
+    </div>
+    <div class="project-box" onclick="location.href='pages/project7.html'">
+        <h4>Multi Lingual Dictionary</h4>
+        <p>Learn more about the Multi Lingual Dictionary Projec project.</p>
     </div>
     <!-- Add more project boxes as needed -->
 </div>
