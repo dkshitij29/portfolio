@@ -71,8 +71,6 @@ header {
 .visit-counter {
     margin-left: auto;
     display: block;
-    border: 1px solid red; /* Temporary for debugging */
-    background-color: yellow; /* Temporary for debugging */
 }
 
 nav {

@@ -32,17 +32,40 @@ async function fetchVisitCount() {
         console.log('Data received:', data);
         // Update the visitor count in the HTML
         const visitCountElement = document.getElementById('visit-count');
+        const visitCountElementMobile = document.getElementById('visit-count-mobile');
+
         if (visitCountElement) {
             visitCountElement.innerText = data.visitCount;
         } else {
             console.error('Element with ID "visit-count" not found.');
         }
+
+        if (visitCountElementMobile) {
+            visitCountElementMobile.innerText = data.visitCount;
+        } else {
+            console.error('Element with ID "visit-count-mobile" not found.');
+        }
     } catch (error) {
         console.error('Error fetching visit count:', error);
         const visitCountElement = document.getElementById('visit-count');
+        const visitCountElementMobile = document.getElementById('visit-count-mobile');
+
         if (visitCountElement) {
             visitCountElement.innerText = 'Error';
         }
+        if (visitCountElementMobile) {
+            visitCountElementMobile.innerText = 'Error';
+        }
+    }
+}
+
+function toggleNav() {
+    var x = document.getElementById("myHeaderNav");
+    if (x.className === "header-nav") {
+        x.className += " responsive";
+        fetchVisitCount();  // Fetch the visit count when the menu is opened
+    } else {
+        x.className = "header-nav";
     }
 }
 
