@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #000000;
+    background-color: #f4fff4ff;
 }
 
 .container {
@@ -295,7 +295,7 @@ footer li {
 
 /* dark mode*/
 body.dark-mode {
-    background-color: #f4fff4ff;
+    background-color: rgb(0, 0, 0);
     color: rgb(0, 0, 0);
 }
 
