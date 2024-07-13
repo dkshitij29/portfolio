@@ -1,36 +1,15 @@
-/*
 // Function to fetch visit count
 async function fetchVisitCount() {
     try {
-        const response = await fetch('https://lm3yhyeex2.execute-a  pi.us-east-2.amazonaws.com/prod/visit');
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const data = await response.json();
-        document.getElementById('visit-count').innerText = data.visitCount;
-        //document.getElementById('loading').style.display = 'none'; // Hide loading indicator
-        document.getElementById('main-content').style.display = 'block'; // Show main content
-    } catch (error) {
-        console.error('Error fetching visit count:', error);
-        document.getElementById('visit-count').innerText = 'Error';
-    }
-}
-
-// Fetch visit count when the page loads
-window.onload = fetchVisitCount;
-*/
-// Function to fetch visit count// Function to fetch visit count
-async function fetchVisitCount() {
-    try {
-        console.log('Fetching visit count...');
+        //console.log('Fetching visit count...');
         const response = await fetch('https://lm3yhyeex2.execute-api.us-east-2.amazonaws.com/prod/visit');
-        console.log('Response received:', response);
+        //console.log('Response received:', response);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         const data = await response.json();
-        console.log('Data received:', data);
-        // Update the visitor count in the HTML
+        //console.log('Data received:', data);
+        
         const visitCountElement = document.getElementById('visit-count');
         const visitCountElementMobile = document.getElementById('visit-count-mobile');
 
@@ -67,7 +46,30 @@ function toggleNav() {
     } else {
         x.className = "header-nav";
     }
+
+    
 }
 
-// Fetch visit count when the page loads
-window.onload = fetchVisitCount;
+function toggleNav_mode(){
+    // Toggle dark-mode class on the body element
+    document.body.classList.toggle('dark-mode');
+    
+    // Toggle dark-mode class on specific elements
+    document.querySelectorAll('header, nav, .container, .nested-container, .work-experience-container, .project-box, footer, .skills-container, .skill').forEach(element => {
+        element.classList.toggle('dark-mode');
+    });
+
+    // Toggle dark-mode class on download links and their hover states
+    document.querySelectorAll('nav a.download-link, nav a.download-link:hover, footer a.download-link, footer a.download-link:hover').forEach(element => {
+        element.classList.toggle('dark-mode-link');
+    });
+}
+
+
+// Check the saved mode in localStorage on page load
+window.onload = function() {
+    fetchVisitCount(); // Fetch visit count when the page loads
+    if (localStorage.getItem('mode') === 'dark') {
+        document.body.classList.add('dark-mode');
+    }
+};
