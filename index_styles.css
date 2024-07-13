@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #000000;
 }
 
 .container {
     background-color: #ffffff;
-    border: 1px solid #bdc3c7;
+    border: 1px solid #006fb9;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -187,7 +187,7 @@ footer li {
 }
 
 .skill {
-    flex: 1 1 100%; /* Adjust the width of each skill category */
+    flex: 2 2 100%; /* Adjust the width of each skill category */
     background-color: #ffffff;
     border: 1px solid #bdc3c7;
     border-radius: 8px;
@@ -289,5 +289,200 @@ footer li {
         text-align: center; /* Center it on mobile view */
         width: 100%; /* Make it full width */
         margin: 10px 0; /* Add some margin for spacing */
+    }
+}
+
+
+/* dark mode*/
+body.dark-mode {
+    background-color: #f4fff4ff;
+    color: rgb(0, 0, 0);
+}
+
+header.dark-mode, nav.dark-mode, .container.dark-mode, footer.dark-mode {
+    background-color: #000000;
+    color: rgb(237, 232, 232);
+}
+
+
+/* Specific heading styles for containers in dark mode */
+.container.dark-mode h2, .container.dark-mode h4,
+.nested-container.dark-mode h2, .nested-container.dark-mode h4,
+.work-experience-container.dark-mode h2, .work-experience-container.dark-mode h4,
+.project-box.dark-mode h2, .project-box.dark-mode h4,
+.skill.dark-mode h2, .skill.dark-mode h4 {
+    color: white;
+}
+
+.container.dark-mode {
+    background-color: #020202;
+    border: 1px solid #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header.dark-mode {
+    background-color: #000000;
+    border-bottom: 1px solid #000000;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+.header-nav.dark-mode {
+    background-color: #333333;
+}
+
+.header-nav.dark-mode a {
+    color: white;
+}
+
+.header-nav.dark-mode a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.header-nav.dark-mode .active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.visit-counter.dark-mode {
+    color: white;
+}
+
+nav.dark-mode a {
+    color: white;
+}
+
+h2.dark-mode, h4.dark-mode {
+    color: white;
+}
+
+.nested-container.dark-mode {
+    background-color: #666; /* Dark grey */
+    border: 1px solid #ffffff;
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.2);
+}
+
+.work-experience-container.dark-mode {
+    background-color: #666; /* Dark grey */
+    border: 1px solid #ffffff;
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.2);
+}
+
+.project-box.dark-mode {
+    background-color: #666;
+    border: 1px solid #ffffff;
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.2);
+}
+
+footer.dark-mode {
+    background-color: #666;
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+footer.dark-mode ul {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer.dark-mode li {
+    color: rgb(255, 255, 255);
+}
+
+.email-icon.dark-mode {
+    filter: invert(1);
+}
+
+.skills-container.dark-mode {
+    background-color: #000000;
+}
+
+.skill.dark-mode {
+    background-color: #666;
+    border: 1px solid #ffffff;
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.2);
+}
+
+.skill.dark-mode h4 {
+    color: white;
+}
+
+.skill-list.dark-mode li {
+    color: white;
+}
+
+
+
+
+
+.skill.dark-mode h4, .skill.dark-mode .skill-list, .skill.dark-mode .skill-list li {
+  color: white;
+}
+
+@media (max-width: 1024px) {
+    .header-nav.dark-mode a:not(.icon) {
+        display: none;
+    }
+
+    .header-nav.dark-mode a.icon {
+        display: block;
+    }
+
+    .header-nav.dark-mode.responsive #myLinks {
+        display: block;
+    }
+
+    .header-nav.dark-mode.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1025px) {
+    .header-nav.dark-mode {
+        display: none;
+    }
+
+    .header-nav.dark-mode #myLinks {
+        display: flex;
+    }
+
+    .header-nav.dark-mode a.icon {
+        display: none;
+    }
+
+    .header-nav.dark-mode a {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 768px) {
+    .testfile.dark-mode {
+        display: none;
+    }
+
+    .container.dark-mode {
+        padding: 10px;
+    }
+
+    .nested-container.dark-mode {
+        padding: 15px;
+    }
+
+    .project-box.dark-mode {
+        padding: 15px;
+    }
+
+    .skill.dark-mode {
+        flex: 1 1 calc(100% - 20px);
+        margin-bottom: 10px;
+    }
+
+    .visit-counter.dark-mode {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 10px 0;
     }
 }
