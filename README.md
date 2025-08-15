@@ -13,7 +13,7 @@ This is the source code for my personal portfolio website. The portfolio showcas
 - [License](#license)
 
 ## About
-I am Kshitij Dhannoda, a dedicated and passionate software engineer with a strong background in Computer and Information Sciences. My journey in the world of technology began at the University of Michigan, Dearborn, where I pursued my Masters in Computer and Information Sciences, specializing in General Computer Science. Prior to that, I obtained my Bachelor of Technology in Information Technology from Vidya Jyothi Institute of Technology, India.
+I am Kshitij Dhannoda, a dedicated and passionate engineer with a strong background in Computer and Information Sciences. My journey in the world of technology began at the University of Michigan, Dearborn, where I pursued my Masters in Computer and Information Sciences, specializing in General Computer Science. Prior to that, I obtained my Bachelor of Technology in Information Technology from Vidya Jyothi Institute of Technology, India.
 
 With a keen interest in exploring and mastering various programming languages and frameworks, I have honed my skills in JavaScript, Go, Rust, Java, Python, C, Dart, and PHP. My expertise extends to frameworks such as React-Native, Flutter, Native-script, OpenCV, Hadoop, PySpark, Django, and Next.js. Proficient in utilizing tools like GIT, Docker, Android Studio, Microsoft Office, and LaTeX, I am committed to delivering high-quality solutions that meet the needs of clients and users alike.
 
@@ -25,6 +25,12 @@ With a keen interest in exploring and mastering various programming languages an
 - **Degree:** Bachelor of Technology in Information Technology
 
 ## Work Experience
+### Global Infrasturcture Intern | Zoetis USA
+
+### Research Assistant | University of Michigan, Dearborn
+
+### Research Assistant | University of Michigan, Dearborn
+
 ### Software Intern | Free Software Movement of India, India
 
 ### Next.js Developer - Internship | Provoke Developers, India
